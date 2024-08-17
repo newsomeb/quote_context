@@ -27,12 +27,14 @@ Copypip install pandas Levenshtein
 
 **Ensure you have the following data:
 **
+
 Gutenberg metadata CSV file
 Directory containing Gutenberg book files (pickled)
 SQLite database with quotes
 
 
 **Usage**
+
 Run the script with the following command:
 Copypython quote_context_finder.py
 Note: Ensure that the file paths in the script are correctly set to your local environment.
@@ -47,4 +49,5 @@ checkpoint.txt: File to store the last processed quote ID
 
 
 **Contributing**
+
 Contributions, issues, and feature requests are welcome. Feel free to check issues page if you want to contribute.
