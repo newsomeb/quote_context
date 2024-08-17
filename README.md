@@ -31,7 +31,6 @@ Directory containing Gutenberg book files (pickled)
 SQLite database with quotes
 
 
-
 Usage
 Run the script with the following command:
 Copypython quote_context_finder.py
@@ -43,12 +42,7 @@ gutenberg_over_70000_metadata.csv: Metadata file for Gutenberg books
 quotes_cleaned.db: SQLite database containing quotes
 checkpoint.txt: File to store the last processed quote ID
 
-Future Improvements
 
-Add command-line arguments for file paths
-Implement multithreading for faster processing
-Enhance error handling and logging
-Add unit tests for key functions
 
 Contributing
 Contributions, issues, and feature requests are welcome. Feel free to check issues page if you want to contribute.
